@@ -50,8 +50,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="7dp"
             android:inputType="textPassword"
-            android:hint="设置登录密码，不少于6位"
+            android:hint="设置登录密码，不超过12位"
             android:textSize="14dp"
+            android:maxLength="12"
             android:drawableLeft="@drawable/lock"/>
 
         <Button

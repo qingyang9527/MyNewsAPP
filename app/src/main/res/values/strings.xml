@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PerfectGirl</string>
+    <string name="app_name">新闻客户端</string>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -9,4 +9,21 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <string name="home">主页</string>
+    <string name="news">新闻</string>
+    <string name="chat">社交</string>
+
+    <array name="home_video_tab">
+        <item>社会@dream@0</item>
+        <item>国内@dream@1</item>
+        <item>国际@dream@2</item>
+        <item>足球@dream@3</item>
+        <item>科技@dream@4</item>
+        <item>创业@dream@5</item>
+        <item>军事@dream@6</item>
+        <item>移动互联@dream@7</item>
+        <item>IT@dream@8</item>
+        <item>苹果@dream@9</item>
+    </array>
 </resources>

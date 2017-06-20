@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/test1"
@@ -22,14 +23,17 @@
     <item android:title="用户管理">
         <menu>
             <item
-            android:id="@+id/test5"
-            android:title="修改密码"
-            android:icon="@mipmap/ic_launcher"/>
+                android:id="@+id/updatePwd"
+                android:icon="@mipmap/updatepwd"
+                android:title="修改密码" />
             <item
-                android:id="@+id/test6"
-                android:title="完善基本信息"
-                android:icon="@mipmap/ic_launcher"/>
-
+                android:id="@+id/wansan"
+                android:icon="@mipmap/wansan"
+                android:title="完善基本信息" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="退出登录" />
 
         </menu>
 

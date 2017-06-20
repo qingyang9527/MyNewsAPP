@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/old_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:hint="请输入旧密码"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:drawableLeft="@mipmap/oldpwd"/>
+
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:hint="请输入新密码，不超过12位"
+            android:maxLength="12"
+            android:textSize="18sp"
+            android:drawableLeft="@mipmap/newpwd"/>
+
+
+        <Button
+            android:id="@+id/register_next"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:text="提  交"
+            android:textSize="18sp"
+            android:background="@drawable/bt"/>
+        <Button
+            android:id="@+id/register_return"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:text="返  回"
+            android:textSize="18sp"
+            android:background="@drawable/bt"/>
+
+    </LinearLayout>
+
+</LinearLayout>

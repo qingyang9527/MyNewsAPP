@@ -6,6 +6,8 @@
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="appbar_height">45dp</dimen>
+    <dimen name="appbar_height">50dp</dimen>
+    <dimen name="point_size">6dp</dimen>
+    <dimen name="point_margin">6dp</dimen>
 
 </resources>

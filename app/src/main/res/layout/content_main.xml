@@ -4,5 +4,5 @@
     android:layout_height="match_parent"
     >
 
-    <include layout="@layout/tab_viewpager_main"/>
+    <include layout="@layout/fra_tabhost"/>
 </LinearLayout>
